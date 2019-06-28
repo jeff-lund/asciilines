@@ -59,7 +59,7 @@ def read(line):
 def convert_tvg(fname):
     # check file type is correct
     if fname[-3:] != 'tvg':
-        print('Error: incorrect file type')
+        invalid('Error: incorrect file type')
         return
 
     with open(fname, 'r') as f:
