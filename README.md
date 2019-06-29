@@ -33,5 +33,7 @@ Output:
 \*#**  
 . # . .
 
+Automated testing can be run with `python3 tvgconveter.py run tests`
+
 ## License
 This program is licensed under the "MIT License". Please see the file LICENSE in the source distribution of this software for license terms.
